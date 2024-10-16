@@ -25,6 +25,18 @@ Get Zach Braff’s fan accounts on VK, YouTube, and Twitter using his name and p
 
 <a href="https://asciinema.org/a/MsErFlctAsg1G4GvwzNRflzZR" target="_blank"><img src="https://asciinema.org/a/MsErFlctAsg1G4GvwzNRflzZR.svg" /></a>
 
+How to launch:
+
+```
+export API_DOMAIN=...
+export API_KEY=...
+
+python3 face_search_example.py \
+--name "zach braff" \
+--photo_url "https://hollywoodlife.com/wp-content/uploads/2023/01/Zach-Braff-social-image.jpg" \
+--platforms youtube,vk,twitter_v2
+```
+
 Face recognition techniques are extremely important in many cases, such as KYC and general background checks. However, popular public tools like Pimeyes and Facecheck.id cannot always provide accurate results from social platforms. To make face searches more effective, you can combine face and name searches.
 
 This technique is straightforward: first, conduct a general search by name or alias across social media platforms. This step will yield a list of potential matches, even if the name is not exactly the same — because many social media platforms use fuzzy search.
@@ -35,6 +47,6 @@ But, of course, the most difficult part is to integrate your search with all nee
 
 At Social Links, we use this approach to automatically find accounts and compare their photos across various social media platforms, ensuring that you get all related accounts regardless of the use case, whether it's KYC checks, investigations, or searching for impersonators. And that's just a small part of our powerful functionality to gather data from social media!
 
-## How to get a trial access
+## How to get a trial API key
 
 Leave your request [here](https://sociallinks.io/products/sl-api?utm_source=github&utm_medium=organic_social&utm_campaign=github).
