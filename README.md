@@ -1,6 +1,8 @@
 # Social Links API
 
-Social Links gives an API to a suite of data extraction and analysis methods covering social media, blockchains, messengers, and the Dark Web.
+Social Links provides an API to a suite of data extraction and analysis methods covering social media, blockchains, messengers, and the Dark Web.
+
+![SL API banner](https://github.com/user-attachments/assets/d79b2edd-fb41-4724-adbc-c86b08eb13eb)
 
 **[Get documentation and trial access](https://sociallinks.io/products/sl-api?utm_source=github&utm_medium=organic_social&utm_campaign=github)**
 
